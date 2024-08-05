@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+table, tr, td, th{
+    border: 10px solid black;
+    border-collapse: collapse;
+}
+div{
+    color: white;
+    background-color: black;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue ;
+}
+
+h1,h2,h3{
+    font-size: small;
+}
+h4,h5,h6{
+    font-size: larger;
+}
+
+#Name{
+    background-color: red;
+}
+
+#submit:hover, #reset:hover{
+    color: rgb(163, 6, 165);
+}
+input[value="Submit" ]{
+    color: wheat;
+    background-color: black;
+}
+
+.a,.b,.c{
+    padding: 50px;
+    width: 50px;
+    height: 50px;
+    border: 10px solid red;
+    align-content: center;
+    text-align: center;
+    margin: 10px 300px;
+}
