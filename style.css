@@ -60,3 +60,30 @@ input[value="Submit" ]{
     background-color: red;
     color: black;
 }
+
+.grad {
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(red, yellow);
+    background-image: radial-gradient(circle at center, red 0,yellow 50%, green 100%);
+    background-image: conic-gradient(from 45deg, blue 50%, red 60%);
+    box-shadow:  0 1px 0 0 black;
+}
+
+.shadow{
+    color: black;
+    background-color: white;
+    text-shadow:  3px 3px 3px red,3px 3px 3px blue;
+}
+
+.textbox{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 100px;
+    min-height: 100px;
+    overflow: auto;
+    padding: 2px;
+}

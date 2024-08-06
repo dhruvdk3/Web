@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font-size: larger;
+            font-weight: 900;
+            color: black;
+        }
+        .a{
+            position: relative;
+            left: 200px;
+            top: 20px;
+            color: red;
+        }
+        .b{
+            position: sticky;
+            top: 0;
+            color: blue;
+        }
+        .c{
+            position: fixed;
+            left: 100px;
+            top: 100px;
+            color: green;
+        }
+        .d{
+            position: absolute;
+            left: 10px;
+            top: 90px;
+            color: magenta;
+        }
+
+        .box{
+            background-color: red;
+            transform: translate(100px, 200px);
+            transform: rotate(-45deg);
+            transform: scaleX(2);
+            transform: scaleY(4);
+            transform: scale(2);
+            transform: skewX(20deg);
+            transform: skewY(20deg);
+            transform: skew(20deg);
+            transform: matrix(2,0,0, 2,100,100);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="a">Hello World</div>
+    <div class="b">Hello World</div>
+    <div class="c">Hello World</div>
+    <div class="d">Hello World</div>
+
+    <div class="box">A box Lorem, ipsum dolor sit amet consectetur </div>
+</body>
+</html>
