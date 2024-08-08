@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Platypi", serif;
+}
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.background{
+    transform: translateZ(-30px) scale(6);
+}
+.foreground{
+    transform: translateZ(-20px) scale(3);
+}
+#adventure{
+    position: absolute;
+    color: white;
+    font-size: 10rem;
+    font-weight: bolder;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    letter-spacing: 4px;
+    top: 150px;
+}
+.background, .foreground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.para{
+    background-color: rgb(28, 26, 26);
+    padding: 5rem 0;
+    color: white;
+}
+
+.ADT{
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+
+.text{
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    height: 600px;
+    background-size: cover;
+}
+
+.bg1{
+    background-image: url(/Parallex_website/assets/sport-1.jpg);
+}
+
+.bg2{
+    background-image: url(/Parallex_website/assets/sport-2.jpg);
+}
+
+.bg3{
+    background-image: url(/Parallex_website/assets/sport-3.jpg);
+}
+
+.dec{
+    background-color: white;
+    color: black;
+    display: inline;
+    position: absolute;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateX(-10%);
+    font-size: 2rem;
+}
