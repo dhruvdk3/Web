@@ -5,33 +5,18 @@
 }
 
 .container{
-    background-color: red;
-    height: 100vh;
-    border: 3px solid black;
+    background: yellow;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 40px 1fr 1fr 40px;
+    height: 700px;
+    width: 700px;
+    grid-template-columns:100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
 }
 
 .box{
-    background-color: aqua;
-    border: 3px solid black;
-}
-#box1{
-    grid-column: 1/5;
-    
-}
-#box2{
-    grid-area: 2/2/4/4;
-}
-#box3{
-    grid-area: 2/1/4/2;
+    border: 1px solid black;
+    background: green;
 }
 
-#box4{
-    grid-area: 2/4/4/5;
-}
 
-#box5{
-    grid-column: 1/5;
-}
