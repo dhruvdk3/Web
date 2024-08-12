@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    margin: 25px 45px;
+    padding: 20px 25px;
+    max-width: 135rem;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button{
+    width:10.5rem;
+    height: 3.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(96, 96, 200);
+    border: none;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.links{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: gray;
+}
+
+.links a:hover{
+    color: rgb(90, 90, 210);
+    border-bottom: 1px solid rgb(103, 103, 199);
+    transition: 0.2s;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 8rem 0;
+    max-width: 1400px;
+    gap: 200px;
+    line-height: 1.5;
+}
+
+h2{
+    display: inline;
+    font-size: 2.5rem;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+section p{
+    font-weight: 400;
+    margin: 42px 0;
+    font-size: 1.4rem;
+    color: gray;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 5rem 0 4rem;
+    border-top: 2px ridge rgba(128, 128, 128, 0.3);
+}
+
+.logo{
+    display: flex;
+    justify-self: end;
+}
+
+.logo a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #4E5DC0;
+    transition: background-color 0.2s;
+    text-align: left;
+}
+
+.menu{
+    justify-self: end;
+}
+.menu a{
+    text-decoration: none;
+    color: gray;
+    display: block;
+    line-height: 2;
+}
+
+
+h3{
+    color: #4E5DC0;
+    margin-bottom: 20px;
+}
+
+.address p{
+    color: gray;
+    font-size: 1.1rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    line-height: 2;
+}
+
+.policy h3{
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.policy p{
+    color: gray;
+    font-size: 1.1rem;
+    line-height: 2;
+}
