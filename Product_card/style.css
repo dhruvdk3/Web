@@ -2,5 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
+body{
+    background-color: antiquewhite;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: gray;
+}
+.container{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product{
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
+}
+
+.mug{
+    width: 260px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+h2{
+    display: inline;
+    color: green;
+    padding-right: 10px;
+}
+
+button{
+    color: white;
+    background-color: green;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 8px;
+    position: relative;
+    border: 0;
+}
+button img{
+    padding-right: 10px;
+}
