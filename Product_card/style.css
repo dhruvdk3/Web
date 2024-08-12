@@ -16,6 +16,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+h1{
+    padding: 10px 0;
+}
 
 h3{
     color: gray;
