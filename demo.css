@@ -1,22 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container{
-    background: yellow;
-    display: grid;
-    height: 700px;
-    width: 700px;
-    grid-template-columns:100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
-    grid-gap: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
 }
 
 .box{
-    border: 1px solid black;
-    background: green;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid orange;
+    background: aqua;
+    transition-property: all;
+    transition: width 2s, transform 2s cubic-bezier(0,-0.37, 0, 1.43) 0s;
 }
 
-
+.box:hover{
+    width: 500px;
+    transform: rotate(360deg);
+}
