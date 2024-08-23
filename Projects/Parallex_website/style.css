@@ -70,15 +70,15 @@
 }
 
 .bg1{
-    background-image: url(/Parallex_website/assets/sport-1.jpg);
+    background-image: url(./assets/sport-1.jpg);
 }
 
 .bg2{
-    background-image: url(/Parallex_website/assets/sport-2.jpg);
+    background-image: url(./assets/sport-2.jpg);
 }
 
 .bg3{
-    background-image: url(/Parallex_website/assets/sport-3.jpg);
+    background-image: url(./assets/sport-3.jpg);
 }
 
 .dec{
