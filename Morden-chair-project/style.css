@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chair-colour{
+    display: none;
+}
+
+.chair-colour+img{
+    cursor:pointer;
+    width: 20px;
+    border:2px solid transparent;
+}
+
+.chair-colour:checked+img{
+    border: 2px solid black;
+    border-radius: 4px;
+    
+}
+
+.color-1:checked ~  #wrapper{
+    background-color: brown;
+}
+
+/* 
+[type="radio"]:checked,[type="radio"]:not(:checked){
+    position: absolute;
+    visibility: hidden;
+} */
