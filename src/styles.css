@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.companiesList {
+    animation: 30s infinite linear companiesAnimation;
+}
+
+@keyframes  companiesAnimation{
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -160%;
+    }
+}
