@@ -1,12 +1,25 @@
-console.log("Hello");
-let a = 5;
-var b = 5;
-const c = 12;
-console.log(5&&true);
-console.log(5&&false);
-console.log(true&&5);
-console.log(false&&5);
-console.log(5|2);
-for (let index = 0; index < 5; index++) {
-    console.log(index)
+function createRectangle(l,b){
+    let rectangle = {
+        length : l,
+        breadth : b,
+        draw(){
+            console.log("draw rectangle");
+        }
+    };
+    return rectangle;
 }
+
+
+let x = createRectangle(1,2);
+console.log(x.length);
+
+function Rectangle(l,b){
+    this.length = l;
+    this.breadth = b;
+    this.draw = function(){
+        console.log("Drawing");
+    }
+}
+
+let y = new Rectangle(3,5);
+console.log(y.length);
