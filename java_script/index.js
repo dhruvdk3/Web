@@ -39,3 +39,9 @@ let rectangle1 = new Function('l', 'b',
 let rect = new rectangle1(2, 4);
 console.log(rect.length);
 console.log(rect.breadth);
+
+let a = {value:10};
+let b = a;
+a.value++;
+console.log(a.value);
+console.log(b.value);
