@@ -88,4 +88,4 @@ console.log(detail);
 
 x1 = [1,2,3];
 x2 = [4,5,6];
-console.log(x1.concat(x2).slice(2,5));
+console.log(x1.concat(x2).slice(2));
