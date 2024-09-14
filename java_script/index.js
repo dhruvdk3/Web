@@ -75,8 +75,6 @@ let details = [
 ];
 
 
-let detail = details.find(function(detail){
-    return detail.Name == "Dhruv";
-});
+let detail = details.find(detail=>detail.Name == "Dhruv");
 
 console.log(detail);
