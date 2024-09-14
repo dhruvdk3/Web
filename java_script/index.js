@@ -45,3 +45,14 @@ let b = a;
 a.value++;
 console.log(a.value);
 console.log(b.value);
+
+if("lengthi" in rectangle1){
+    console.log(1);
+}
+let z = Object.assign({}, x);
+// for(let key in x){
+//     z[key] = x[key];
+// }
+
+z.length++;
+console.log(z);
