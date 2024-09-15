@@ -88,4 +88,13 @@ console.log(detail);
 
 x1 = [1,2,3];
 x2 = [4,5,6];
-console.log(x1.concat(x2).slice(2));
+console.log(x1.concat(x2).slice(-5));
+console.log([...x1,...x2])
+l.forEach(i=>console.log(i))
+console.log(x1.join(" hehe ").split(" "));
+x = [4,8,1,9,3,-3,-9,-1];
+console.log(x.sort());
+console.log(x.filter(i=>i<=0).map(i=>"hehe"+i));
+a = x.filter(i=>i<=0);
+b = a.map(a=>{i: a});
+console.log(b);
