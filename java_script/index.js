@@ -99,9 +99,49 @@
 // b = a.map(a=>{i: a});
 // console.log(b);
 
-function sum(a,b){
-    let total = 0;
-    for (let i of arguments) total+=i;
-    return total;
-}
-console.log(sum(1,2,3,4,5,6));
+// function sum(a,b){
+//     let total = 0;
+//     for (let i of arguments) total+=i;
+//     return total;
+// }
+// console.log(sum(1,2,3,4,5,6));
+
+// function multiply(...args){
+//     let total = 1;
+//     for(let i of args) total*=i;
+//     return total;
+// }
+// console.log(multiply(1,2,3,4,5));
+
+// let person  = {
+//     first:'Dhruv',
+//     last:"Kumawat",
+//     get name(){
+//         return `${person.first} ${person.last}`;
+//     },
+//     set name(value){
+//         if(typeof(value) !== 'string'){
+//             throw new Error("Not a string");
+//         }
+//         let parts = value.split(" ");
+//         this.first = parts[0];
+//         this.last = parts[1];
+//     }
+// };
+
+// console.log(person.name);
+// try{
+//     person.name = "Hehe kun";
+// }
+// catch(e){
+//     alert(e);
+// }
+// finally{
+//     console.log("hehe finally");
+// }
+// console.log(person.name);
+
+
+let l = [1,2,3,4,5,6];
+let ans = l.reduce((accumulate, currentval)=>accumulate+currentval, 0);
+console.log(ans);
